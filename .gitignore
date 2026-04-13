@@ -1,0 +1,68 @@
+############################
+# === Dataset (LIBERO etc.) ===
+############################
+datasets/
+data/
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+*.pickle
+
+############################
+# === Checkpoints / Models ===
+############################
+checkpoints/
+ckpt/
+*.ckpt
+*.bin
+*.safetensors
+
+############################
+# === Miniforge / Conda installers ===
+############################
+Miniforge3-*.sh
+Miniconda3-*.sh
+Anaconda3-*.sh
+
+############################
+# === Python cache ===
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+############################
+# === Logs / training outputs ===
+############################
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+
+############################
+# === Environment files ===
+############################
+.env
+.venv/
+env/
+venv/
+
+############################
+# === OS / editor ===
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# === Misc ===
+############################
+*.tmp
+*.swp
